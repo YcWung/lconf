@@ -1,0 +1,21 @@
+: 1517468264:0;emacs -nw ~/.zsh.d/functions.zsh
+: 1517468492:0;g2oviewer ../output/inputposegraph.g2o
+: 1517474940:0;g2oviewer ../output/relposes.g2o
+: 1517475016:0;cd /run/media/ycw/Workspace/practice/3Dreconstruction/KungFusion
+: 1517475081:0;g2oviewer ../output/glbposes.g2o
+: 1517475168:0;../bin/g2o_test
+: 1517496851:0;cd /run/media/ycw/Workspace/practice/3Dreconstruction/KungFusion/kf-linux/build
+: 1520210524:0;sudo sensors-detect
+: 1520253532:0;sudo tlp-stat
+: 1520253580:0;systemctl status thermald
+: 1520293225:0;cd /run/media/ycw/Workspace/mathnotes
+: 1520314790:0;cd /run/media/ycw/Workspace/notes
+: 1520314994:0;git remote add origin "https://YcWangMath@bitbucket.org/YcWangMath/miscnotes.git"
+: 1520315343:0;hub create YcWung/lconf
+: 1520319400:0;sudo pacman -S zsh-completions zsh-autosuggestions zsh-syntax-highlighting --needed
+: 1520319787:0;export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context custom_space)
+: 1520319906:0;export POWERLEVEL9K_CUSTOM_SPACE='echo "hello "'
+: 1520321457:0;zle-line-init(){zle -U ' ';}
+: 1520321462:0;zle -N zle-line-init
+: 1520322861:0;emacs -nw ~/.zshrc
+: 1520322969:0;emacs .zsh.d/cache/history
