@@ -30,6 +30,7 @@ done
 ## zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git $PREFIX/oh-my-zsh
 git clone https://github.com/bhilburn/powerlevel9k.git $PREFIX/oh-my-zsh/custom/themes/powerlevel9k
+git clone https://github.com/zsh-users/zsh-history-substring-search $PREFIX/oh-my-zsh/custom/themes/zsh-history-substring-search
 ln -s $PREFIX/ycwzsh/zshrc $HOME/.zshrc || \
     (mv $HOME/.zshrc $HOME/.zshrc_ycwkack && \
     ln -s $PREFIX/ycwzsh/zshrc $HOME/.zshrc)
